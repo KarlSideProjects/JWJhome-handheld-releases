@@ -7,7 +7,7 @@ Karl’s software is free for noncommercial use. Commercial use, including inter
 
 Before installing, confirm the release is marked stable on its page. Pre-release packages are for validation.
 
-[Download both packages](https://github.com/KarlSideProjects/mqtt-handheld-hardware-monitor-releases/releases/tag/v0.0.17). [Version metadata](version.json) identifies the compiled source, archive hashes and installer manifest hashes. Installation uses the complete compiled package from this public release.
+[Download both packages](https://github.com/KarlSideProjects/JWJhome-handheld-releases/releases/tag/v0.0.17). [Version metadata](version.json) identifies the compiled source, archive hashes and installer manifest hashes. Installation uses the complete compiled package from this public release.
 
 ## Compatibility and preparation
 
@@ -19,7 +19,7 @@ Use a terminal with curl, gzip, tar and sha256sum. If curl is unavailable on the
 ## R36 installation
 
 ```sh
-curl --fail --location https://github.com/KarlSideProjects/mqtt-handheld-hardware-monitor-releases/releases/download/v0.0.17/display-r36-arm64-0.0.17.tar.gz --output display-r36-arm64-0.0.17.tar.gz
+curl --fail --location https://github.com/KarlSideProjects/JWJhome-handheld-releases/releases/download/v0.0.17/display-r36-arm64-0.0.17.tar.gz --output display-r36-arm64-0.0.17.tar.gz
 printf '%s  display-r36-arm64-0.0.17.tar.gz\n' '1df311d3291e62242ec733a14a87d373895878e18da9c332fb4af4588aba7848' | sha256sum --check -
 bundle=$(mktemp -d)
 gzip -dc display-r36-arm64-0.0.17.tar.gz | tar -xf - -C "$bundle"
@@ -30,7 +30,7 @@ sh ./install-r36.sh --manifest-sha256 842637178b1803fa334168f998196660e4d4fd3f72
 ## TrimUI installation
 
 ```sh
-curl --fail --location https://github.com/KarlSideProjects/mqtt-handheld-hardware-monitor-releases/releases/download/v0.0.17/display-trimui-arm64-0.0.17.tar.gz --output display-trimui-arm64-0.0.17.tar.gz
+curl --fail --location https://github.com/KarlSideProjects/JWJhome-handheld-releases/releases/download/v0.0.17/display-trimui-arm64-0.0.17.tar.gz --output display-trimui-arm64-0.0.17.tar.gz
 printf '%s  display-trimui-arm64-0.0.17.tar.gz\n' '54aade3129bf14127894b0873514c6e0e686013f09711d1fe6ee5423896bbfc7' | sha256sum --check -
 bundle=$(mktemp -d)
 gzip -dc display-trimui-arm64-0.0.17.tar.gz | tar -xf - -C "$bundle"
