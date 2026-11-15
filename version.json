@@ -1,20 +1,24 @@
 {
+  "installers": {
+    "install-handheld.ps1": "6c7aef23f710b847681f82ca2a6d0ae8c1e9c2d7a90a6f63df2dd3a25deba46f",
+    "install-handheld.sh": "0c89fc8bf63776281be86ff469a798421e0bf2cab1b25937268fd9351da13d81"
+  },
   "platforms": {
     "r36": {
-      "archive": "display-r36-arm64-0.0.17.tar.gz",
-      "manifest_sha256": "842637178b1803fa334168f998196660e4d4fd3f72c24a23df1498b258764e3f",
-      "sha256": "1df311d3291e62242ec733a14a87d373895878e18da9c332fb4af4588aba7848",
-      "source_commit": "d06e3edae7e46eb64c74192c47f2505ea981cbd5",
-      "version": "0.0.17"
+      "archive": "display-r36-arm64-0.0.30.tar.gz",
+      "manifest_sha256": "f26433074185da5424957dfc5a4b358098e1912a46fc7b563294da60467dc4b0",
+      "sha256": "710cbb65f46764d1c5198812f5560f1ff9b345ca65ee5fc6d4a6abe0bb9b6f2e",
+      "source_commit": "12b30d05f6f38ebb149e14ce52bbdcd03b488f02",
+      "version": "0.0.30"
     },
     "trimui": {
-      "archive": "display-trimui-arm64-0.0.17.tar.gz",
-      "manifest_sha256": "9d01de8849728b1497eeb9dafcf7a24e173de8f2fe499f609e98a418e5a9f77c",
-      "sha256": "54aade3129bf14127894b0873514c6e0e686013f09711d1fe6ee5423896bbfc7",
-      "source_commit": "d06e3edae7e46eb64c74192c47f2505ea981cbd5",
-      "version": "0.0.17"
+      "archive": "display-trimui-arm64-0.0.30.tar.gz",
+      "manifest_sha256": "4dae1467709fcf8920823c412e2b7486bbe7ceb7bb8124a3929d12ac8f322523",
+      "sha256": "75f97da246b88a679f8355ff1f8af146675f3fed5e51c172e0ae881b48697c9c",
+      "source_commit": "12b30d05f6f38ebb149e14ce52bbdcd03b488f02",
+      "version": "0.0.30"
     }
   },
-  "source_commit": "d06e3edae7e46eb64c74192c47f2505ea981cbd5",
-  "version": "0.0.17"
+  "source_commit": "12b30d05f6f38ebb149e14ce52bbdcd03b488f02",
+  "version": "0.0.30"
 }
